@@ -25,9 +25,9 @@ componentDidMount(){
     <div className = 'tc'>
       <header className="App-header tc">
         <h1 className= 'f1 tc'>Star  Wars</h1>
-        <img className = 'ma4 br4 w-30 tc' alt='StarWars' src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoozGDrykxkHFNz33fJb7_J9JQuUfCb4SCdU5chl3MotUDtQ_L&s'/>
+        <img className = 'ma4 br4 w-40 tc' alt='StarWars' src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoozGDrykxkHFNz33fJb7_J9JQuUfCb4SCdU5chl3MotUDtQ_L&s'/>
       </header>
-      <Scroll>
+      <Scroll >
         <CardList films = {films}/>
       </Scroll> 
     </div>

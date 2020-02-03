@@ -4,8 +4,8 @@ import Card from './Card';
 const CardList = ({films}) => {
  
 	return (
-		<div>
-			{
+		<div className = 'flex justify-center flex-wrap w-100'>
+		{
 			films.map((user, i) => {
 			return (
 				<Card

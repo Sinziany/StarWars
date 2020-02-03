@@ -3,7 +3,7 @@ import {Go_youtube} from './Go_youtube';
 
 const Card = ({title, opening_crawl,director,producer,release_date}) => {
 	return (
-		<div className = 'tc bg-dark-blue light-silver dib br3 pa4 ma3 grow w-25 shadow-5'>
+	 	<div className = 'tc bg-dark-blue light-silver br3 pa4 ma3 grow shadow-5 w-30 flex-auto'>
 			<div>
 				<h2 className='b underline'	>
 					<a className = 'light-purple'
